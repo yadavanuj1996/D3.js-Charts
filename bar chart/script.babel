@@ -1,8 +1,10 @@
 /**
-*  @fileOverview Bar Chart or Histogram implementation for comapring US gdp across several years using D3.js library.
+*  @fileOverview Bar Chart or Histogram implementation for comapring US gdp across several
+*  years using D3.js library.
 *  @author Anuj Yadav
-*  @see Check other data visualizations using d3.js at <a href="https://github.com/yadavanuj1996/D3.js-Charts">D3.js-Charts</a>
-*  @see For accessing or forking this particular pen at codepen follow <a href="https://codepen.io/yadavanuj1996/pen/qBWqbaa">Bar Chart Codepen</a>
+*  @see Access Source Data {@link https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/GDP-data.json|Datasource} 
+*  @see Other Charts {@link https://github.com/yadavanuj1996/D3.js-Charts|D3.js-Charts}
+*  @see Cod Pen {@link https://codepen.io/yadavanuj1996/pen/zgdZYG|Codpen}
 */
 /**
 *  @constant
@@ -29,11 +31,13 @@ document.addEventListener("DOMContentLoaded",()=>{
   loadChartAfterFetchGDPData();
 });
 /**
+*  @external XMLHttpRequest
+*  @see https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest 
+*/
+/**
 *  This will fetch the data using jquery's AJAX request.
 *  @function
 *  {@link https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/cyclist-data.json|Datasource}
-*  @external XMLHttpRequest
-*  @see https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest 
 */
 let loadChartAfterFetchGDPData=()=>{  
   const ajaxRequest=new XMLHttpRequest();
