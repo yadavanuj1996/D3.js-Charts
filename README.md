@@ -20,6 +20,13 @@ git clone
 ## Usage
 Run index.html in browser and the rendered charts will be visible or the code pens hosted at codepen.io  can be directly edited and the changes will be reflect immediately,the pens can also be forked for modifications and usage.
 
+ The Detailed **Documentation** of charts can be accessed at: 
+ [Bar Chart](https://rawcdn.githack.com/yadavanuj1996/jsdocs/master/D3-projects/gdp-bar-chart/index.html)  				
+ [Scatter Plot](https://rawcdn.githack.com/yadavanuj1996/jsdocs/master/D3-projects/doping-scatter-plot/index.html)
+ [Heat Map](https://rawcdn.githack.com/yadavanuj1996/jsdocs/master/D3-projects/temperature-heat-map/index.html)
+ [Choropleth Map](https://rawcdn.githack.com/yadavanuj1996/jsdocs/master/D3-projects/education-choropleth-map/index.html)
+ [Treemap ](https://rawcdn.githack.com/yadavanuj1996/jsdocs/master/D3-projects/movie-revenue-treemap/index.html)
+
 ![alt text][logo]
 
 [logo]:https://i.ibb.co/K2B2jwN/pjimage.jpg 
